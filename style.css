@@ -1,0 +1,40 @@
+/* Establece el fondo rojo oscuro para la página */
+body {
+    background-color: #8B0000; /* Rojo oscuro */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff; /* Texto blanco para contraste */
+}
+
+/* Estilo para el título y la imagen */
+header {
+    background-color: #747474; /* Fondo negro */
+    color: white;
+    padding: 20px;
+    margin: 0;
+    display: flex; /* Usamos Flexbox para organizar el título y la imagen */
+    justify-content: center; /* Centra el título */
+    align-items: center; /* Centra verticalmente */
+}
+
+header h1 {
+    font-size: 2em;
+    margin-right: 20px; /* Espacio entre el título y la imagen */
+}
+
+/* Estilo de la imagen */
+.logo {
+    width: 120px;  /* Ajusta el tamaño de la imagen */
+    height: auto;  /* Mantiene la proporción de la imagen */
+    opacity: 0.9;  /* Le da un poco de transparencia */
+}
+
+/* Estilo del iframe */
+.powerbi-iframe {
+    width: 80%;  /* Ancho del iframe ajustado */
+    height: 600px;  /* Altura del iframe ajustada */
+    margin: 20px auto; /* Centrado y con un pequeño margen */
+    display: block;
+    border: none; /* Sin bordes */
+}
